@@ -9,6 +9,18 @@
 #ifndef Controller_hpp
 #define Controller_hpp
 
-#include <stdio.h>
+#include <string>
+using namespace std;
+
+class Controller
+{
+private:
+    string derpy;
+    string otherWords;
+    void numberMethods();
+public:
+    Controller();
+    void start();
+};
 
 #endif /* Controller_hpp */

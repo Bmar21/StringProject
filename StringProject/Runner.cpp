@@ -6,4 +6,13 @@
 //  Copyright © 2017 Marlor, Brandon. All rights reserved.
 //
 
-#include <stdio.h>
+#include "Controller.hpp"
+
+
+int main()
+{
+    Controller * app = new Controller;
+    app->start();
+    
+    return 0;
+}
