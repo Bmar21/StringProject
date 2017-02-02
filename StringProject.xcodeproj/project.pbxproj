@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28E28A821E43C7290010B112 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28E28A811E43C7290010B112 /* main.cpp */; };
+		28E28A8A1E43C7570010B112 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28E28A881E43C7570010B112 /* Controller.cpp */; };
+		28E28A8C1E43C7710010B112 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28E28A8B1E43C7710010B112 /* Runner.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		28E28A7E1E43C7290010B112 /* StringProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StringProject; sourceTree = BUILT_PRODUCTS_DIR; };
-		28E28A811E43C7290010B112 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		28E28A881E43C7570010B112 /* Controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
+		28E28A891E43C7570010B112 /* Controller.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
+		28E28A8B1E43C7710010B112 /* Runner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		28E28A801E43C7290010B112 /* StringProject */ = {
 			isa = PBXGroup;
 			children = (
-				28E28A811E43C7290010B112 /* main.cpp */,
+				28E28A881E43C7570010B112 /* Controller.cpp */,
+				28E28A891E43C7570010B112 /* Controller.hpp */,
+				28E28A8B1E43C7710010B112 /* Runner.cpp */,
 			);
 			path = StringProject;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28E28A821E43C7290010B112 /* main.cpp in Sources */,
+				28E28A8A1E43C7570010B112 /* Controller.cpp in Sources */,
+				28E28A8C1E43C7710010B112 /* Runner.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
